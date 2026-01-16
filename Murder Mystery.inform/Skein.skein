@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Murder Mystery</command>
+    <result xml:space="preserve">A violent storm rages outside. POLICE REPORT (confidential): Mr. Blackwood, a wealthy businessman, has been murdered. The crime took place inside his house. Several people were present at the time of the incident. Your task is to uncover the truth.&#x000A;&#x000A;Murder Mystery&#x000A;An Interactive Fiction by Luka Hrupec&#x000A;Release 1 / Serial number 251228 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-105"/>
+      <child nodeId="node-114"/>
+      <child nodeId="node-168"/>
+      <child nodeId="node-176"/>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You have entered the Basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-17"/>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Basement&#x000A;The basement is cold and dim. Cardboard boxes are stacked against the walls, and pipes run along the ceiling. A fuse box is mounted on the wall.&#x000A;&#x000A;You can see a fuse box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">examine pipes</command>
+    <result xml:space="preserve">Old metal pipes carrying water through the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">exaime boxes</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">examine boxes</command>
+    <result xml:space="preserve">Old cardboard boxes filled with Christmas decorations.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">examine fuse box</command>
+    <result xml:space="preserve">A metal fuse box controlling the electricity in the house.&#x000A;&#x000A;The fuse box is currently switched on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">switch off fuse box</command>
+    <result xml:space="preserve">You switch off the fuse box. The lights in the house go out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">switch on fuse box</command>
+    <result xml:space="preserve">You switch the fuse box back on. The lights in the house return.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">switch off fuse box</command>
+    <result xml:space="preserve">You switch off the fuse box. The lights in the house go out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">It's too dark to see the stairs. You might fall if you try to go up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">switch on fuse box</command>
+    <result xml:space="preserve">You switch the fuse box back on. The lights in the house return.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">switch off fusebox</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">switch off fuse box</command>
+    <result xml:space="preserve">You switch off the fuse box. The lights in the house go out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">switch on fuse box</command>
+    <result xml:space="preserve">You switch the fuse box back on. The lights in the house return.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You have entered the Basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Basement&#x000A;The basement is cold and dim. Cardboard boxes are stacked against the walls, and pipes run along the ceiling. A fuse box is mounted on the wall.&#x000A;&#x000A;You can see a fuse box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is neat and carefully arranged. A bed stands in the center, with a nightstand beside it and a large wardrobe against the wall.&#x000A;&#x000A;You can see a nightstand (closed) and a wardrobe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+      <child nodeId="node-32"/>
+      <child nodeId="node-66"/>
+      <child nodeId="node-79"/>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">ask son about safe</command>
+    <result xml:space="preserve">He shakes his head impatiently. "That doesn't matter."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">ask son about safe</command>
+    <result xml:space="preserve">His eyes narrow. "I knew he was hiding something," he says. "Money. Documents. Something important. He never trusted anyone enough to say what it really was."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large closed wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+      <child nodeId="node-45"/>
+      <child nodeId="node-56"/>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">examin bottom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">The wardrobe is closed. You need to open it first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">examine false bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large open wardrobe filled with expensive clothes.&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">The safe is locked. You need a key to open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is neat and carefully arranged. A bed stands in the center, with a nightstand beside it and a large wardrobe against the wall.&#x000A;&#x000A;You can see a nightstand (closed) and a wardrobe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">A large, neatly made bed. It looks untouched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">examine nightstand</command>
+    <result xml:space="preserve">A small wooden nightstand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">open nightstand</command>
+    <result xml:space="preserve">You open the nightstand, revealing a conspiracy book.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">examine book</command>
+    <result xml:space="preserve">A book titled "Top 10 Conspiracy Theories of the Last 50 Years". Many pages are bookmarked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">examine nightstand</command>
+    <result xml:space="preserve">A small wooden nightstand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">open nightstand</command>
+    <result xml:space="preserve">You open the nightstand, revealing a book.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">examine book</command>
+    <result xml:space="preserve">A book titled "Top 10 Conspiracy Theories of the Last 50 Years". Many pages are bookmarked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is neat and carefully arranged. A bed stands in the center, with a nightstand beside it and a large wardrobe against the wall.&#x000A;&#x000A;You can see a nightstand (in which is a book) and a wardrobe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">examine false bottom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">examine false bottom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">search son</command>
+    <result xml:space="preserve">You search the son, but find nothing except nervous tension.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">search maid</command>
+    <result xml:space="preserve">As you move closer to search her, her expression changes instantly. Panic flashes in her eyes.&#x000A;Before you can react, she pulls out a hidden knife and lunges at you.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your investigation ends here. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">RESTART</command>
+    <result xml:space="preserve">A violent storm rages outside. POLICE REPORT (confidential): Mr. Blackwood, a wealthy businessman, has been murdered. The crime took place inside his house. Several people were present at the time of the incident. Your task is to uncover the truth.&#x000A;&#x000A;Murder Mystery&#x000A;An Interactive Fiction by Luka Hrupec&#x000A;Release 1 / Serial number 251224 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">search cook</command>
+    <result xml:space="preserve">You search the cook, but find nothing relevant to the case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large closed wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large closed wardrobe.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;A small brass key. It looks like it could open a safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. Everything appears normal at first glance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. Everything appears normal at first glance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Basement&#x000A;The basement is cold and dim. A fuse box is mounted on the wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is quiet and orderly. Too quiet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+      <child nodeId="node-119"/>
+      <child nodeId="node-124"/>
+      <child nodeId="node-144"/>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">accuse cook</command>
+    <result xml:space="preserve">You cannot accuse the Cook without questioning them first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">Two knives went missing some time ago," the cook admits. "I noticed it during the renovation. Anyone could have taken them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">accuse cook</command>
+    <result xml:space="preserve">The cook shakes his head slowly. "I've served this family for years. I would never do this."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">ask cook about blackwood</command>
+    <result xml:space="preserve">The Cook ignores your questions.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">Two knives went missing some time ago," the cook admits. "I noticed it during the renovation. Anyone could have taken them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">accuse cook</command>
+    <result xml:space="preserve">The cook shakes his head slowly. "I've served this family for years. I would never do this."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">examine knife</command>
+    <result xml:space="preserve">A kitchen knife covered in dried blood. It looks like it came from the cook's knife rack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">The cook glances at the body. "Yes," he says quietly. "That knife is one of mine. It went missing during the renovation. I mentioned it back then, but nothing came of it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+      <child nodeId="node-125"/>
+      <child nodeId="node-130"/>
+      <child nodeId="node-131"/>
+      <child nodeId="node-138"/>
+      <child nodeId="node-140"/>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-323">
+    <command xml:space="preserve">ask cook</command>
+    <result xml:space="preserve">(for the Cook)&#x000A;(the Cook first taking the Cook)&#x000A;The Cook has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-324"/>
+    </children>
+  </item>
+  <item nodeId="node-324">
+    <command xml:space="preserve">talk to the cook</command>
+    <result xml:space="preserve">The cook wipes his hands on his apron. "I've worked here for years," he says. "I would never hurt Mr. Blackwood. This whole thing is a nightmare."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-325"/>
+    </children>
+  </item>
+  <item nodeId="node-325">
+    <command xml:space="preserve">ask cook about wife</command>
+    <result xml:space="preserve">"Mrs. Blackwood was under a lot of stress," he says carefully. "They argued often. But that's not my business."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-326"/>
+    </children>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">ask cook about blackwood</command>
+    <result xml:space="preserve">The cook shrugs. "I don't really know anything about that."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">Two knives went missing some time ago," the cook admits. "I noticed it during the renovation. Anyone could have taken them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">examine bath</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance. A maid stands near the bathtub, as if she was interrupted while cleaning.&#x000A;&#x000A;You can see a bathroom cabinet (closed) and a Maid here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">examine bathtub</command>
+    <result xml:space="preserve">A standard bathtub.&#x000A;&#x000A;Upon closer inspection, you notice a small dried blood stain near the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
+    <command xml:space="preserve">ask maid about blackwood</command>
+    <result xml:space="preserve">She hesitates and avoids your gaze. "Mr. Blackwood was... unusual," she says softly. "Very cautious. Always watching, always suspecting something." She pauses. "He trusted very few people."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
+  </item>
+  <item nodeId="node-334">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;- Victim found in the kitchen, stabbed with a kitchen knife.&#x000A;- Blood was found in the bathroom, away from the crime scene.&#x000A;- The maid seems to be hiding something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-335"/>
+    </children>
+  </item>
+  <item nodeId="node-335">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">The maid stiffens. "You're wrong," she says coldly. "I have nothing more to say."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-336"/>
+    </children>
+  </item>
+  <item nodeId="node-336">
+    <command xml:space="preserve">arrest maid</command>
+    <result xml:space="preserve">As you move to arrest her, panic flashes in the maid's eyes.&#x000A;A hidden knife appears in a blur of motion.&#x000A;&#x000A;&#x000A;&#x000A;    *** CASE FAILED&#x000A;&#x000A;You underestimated her.&#x000A;&#x000A;The investigation ends in blood. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">ask cook </command>
+    <result xml:space="preserve">(for the Cook)&#x000A;(the Cook first taking the Cook)&#x000A;The Cook has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">talk to cook</command>
+    <result xml:space="preserve">The cook wipes his hands on his apron. "I've worked here for years," he says. "I would never hurt Mr. Blackwood. This whole thing is a nightmare."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">ask cook about blackwood</command>
+    <result xml:space="preserve">The cook shrugs. "I don't really know anything about that."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">Two knives went missing some time ago," the cook admits. "I noticed it during the renovation. Anyone could have taken them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">examine oven</command>
+    <result xml:space="preserve">A modern oven. It is turned off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">examine body</command>
+    <result xml:space="preserve">Mr. Blackwood lies motionless on the floor. There is a knife stuck in his back.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">examine knife</command>
+    <result xml:space="preserve">A kitchen knife covered in dried blood. It looks like it came from the cook's knife rack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You should not disturb the body any further.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">examine fridge</command>
+    <result xml:space="preserve">A large refrigerator. Nothing unusual.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">examine oven</command>
+    <result xml:space="preserve">A modern oven. It is turned off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">A heavy wooden kitchen table.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">examine spice</command>
+    <result xml:space="preserve">Cabinets filled with various spices.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">examine knife</command>
+    <result xml:space="preserve">A kitchen knife covered in dried blood. It looks like it came from the cook's knife rack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">ask cook about knife</command>
+    <result xml:space="preserve">The cook glances at the body. "Yes," he says quietly. "That knife is one of mine. It went missing during the renovation. I mentioned it back then, but nothing came of it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance.&#x000A;&#x000A;You can see a bathroom cabinet (closed) and a Maid here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">talk to cook</command>
+    <result xml:space="preserve">The cook wipes his hands on his apron. "I've worked here for years," he says. "I would never hurt Mr. Blackwood. This whole thing is a nightmare."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;You have not gathered any solid notes yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">examine rack</command>
+    <result xml:space="preserve">A wooden rack used to store kitchen knives.&#x000A;&#x000A;You notice that two knives are missing from the rack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;- Victim found in the kitchen, stabbed with a kitchen knife.&#x000A;- Two knives are missing from the kitchen rack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is neat and carefully arranged. A bed stands in the center, with a nightstand beside it and a large wardrobe against the wall. The son of Mr. Blackwood stands in the room, looking tense and restless.&#x000A;&#x000A;You can see a nightstand (closed), a wardrobe (closed) and a Son here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">A large, neatly made bed. It looks untouched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">examine night stand</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">examine nightstand</command>
+    <result xml:space="preserve">A small wooden nightstand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">open nightstand</command>
+    <result xml:space="preserve">You open the nightstand, revealing a book.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">examine book</command>
+    <result xml:space="preserve">A book titled "Top 10 Conspiracy Theories of the Last 50 Years". Many pages are bookmarked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;Thunder rumbles loudly outside. The storm shows no sign of stopping.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">ask maid about blackwood</command>
+    <result xml:space="preserve">She hesitates and avoids your gaze. "Mr. Blackwood was... unusual," she says softly. "Very cautious. Always watching, always suspecting something." She pauses. "He trusted very few people."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">accuse maide</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;You have not gathered any solid notes yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">ask cook about wife</command>
+    <result xml:space="preserve">"Mrs. Blackwood was under a lot of stress," he says carefully. "They argued often. But that's not my business."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;- The cook just seems genuinely frightened.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;- Victim found in the kitchen, stabbed with a kitchen knife.&#x000A;- The cook just seems genuinely frightened.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">notes</command>
+    <result xml:space="preserve">CASE NOTES:&#x000A;- Victim found in the kitchen, stabbed with a kitchen knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+      <child nodeId="node-186"/>
+      <child nodeId="node-193"/>
+      <child nodeId="node-211"/>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">ask wife about safe</command>
+    <result xml:space="preserve">She shakes her head. "I don't know anything about that."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">The safe is locked. You need a key to open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">ask wife about safe</command>
+    <result xml:space="preserve">"I knew there was a safe," she admits quietly. "He never told me where it was, or what was inside. Our son was far more interested in it than I ever was."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">examine sofra</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">examine sofa</command>
+    <result xml:space="preserve">A comfortable-looking sofa.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The living room is spacious and tastefully furnished. A sofa and a coffee table sit in the center of the room. A large cabinet stands against one wall.&#x000A;&#x000A;You can see a living room cabinet (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">examine coffee table</command>
+    <result xml:space="preserve">A low table with a few magazines on it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">A large wooden cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the living room cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">search cabinet</command>
+    <result xml:space="preserve">You search the cabinet but find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">The safe is locked. You need a key to open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">open safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;A small metal key. It looks like it could open a safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">open safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">seach wife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">examin wardrobe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large wardrobe filled with expensive clothes.&#x000A;&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">examin bottom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large closed wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">(the safe key)&#x000A;A small metal key. It looks like it could open a safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">(the safe key with the safe key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large open wardrobe filled with expensive clothes.&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A small metal safe hidden behind the false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe with the key. It opens with a quiet click.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a bundle of cash, a conspiracy books and a love letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">examine cash</command>
+    <result xml:space="preserve">A thick bundle of banknotes. Someone was clearly preparing for something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">examine books</command>
+    <result xml:space="preserve">Several books about secret societies, surveillance, and hidden plots. They seem heavily used.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">examine love letter</command>
+    <result xml:space="preserve">The letter speaks of secret meetings and forbidden affection. The writer dreams of escaping together, leaving this house behind forever. The letter is not signed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe with the key. It opens with a quiet click.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a bundle of cash, a conspiracy books and a love letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">examine love letter</command>
+    <result xml:space="preserve">The letter speaks of secret meeting and forbidden affection. The writer dreams of escaping together, leaving all of this behind forever. The letter is not signed, but clearly written by a lover.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">read love letter</command>
+    <result xml:space="preserve">The letter speaks of secret meeting and forbidden affection. The writer dreams of escaping together, leaving all of this behind forever. The letter is not signed, but clearly written by a lover.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">ask maid about wife</command>
+    <result xml:space="preserve">The maid lowers her voice. "She was very emotional. Watching everyone. I tried to stay invisible."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+      <child nodeId="node-284"/>
+      <child nodeId="node-286"/>
+      <child nodeId="node-290"/>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">ask maid about wife</command>
+    <result xml:space="preserve">The maid lowers her voice. "She was very emotional. Watching everyone. I tried to stay invisible."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">The maid stiffens. "You're wrong," she says coldly. "I have nothing more to say."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">search maid</command>
+    <result xml:space="preserve">As you move closer to search her, her expression changes instantly. Panic flashes in her eyes.&#x000A;Before you can react, she pulls out a hidden knife and lunges at you.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your investigation ends here. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">A violent storm rages outside. POLICE REPORT (confidential): Mr. Blackwood, a wealthy businessman, has been murdered. The crime took place inside his house. Several people were present at the time of the incident. Your task is to uncover the truth.&#x000A;&#x000A;Murder Mystery&#x000A;An Interactive Fiction by Luka Hrupec&#x000A;Release 1 / Serial number 251224 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large open wardrobe filled with expensive clothes.&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe with the key. It opens with a quiet click.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a bundle of cash, a conspiracy books and a love letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">The letter speaks of secret meeting and forbidden affection. The writer dreams of escaping together, leaving all of this behind forever. The letter is not signed, but clearly written by a lover.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">ask maid about wife</command>
+    <result xml:space="preserve">The maid lowers her voice. "She was very emotional. Watching everyone. I tried to stay invisible."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">The maid freezes. Her shoulders slump.&#x000A;"We were going to leave together," she whispers. "He promised me."&#x000A;"Then he changed his mind. I was hurt. Angry. I never meant for this to happen."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">arrest maid</command>
+    <result xml:space="preserve">The case has reached its conclusion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">south </command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">search wife</command>
+    <result xml:space="preserve">You carefully search her and find a small key hidden in her pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Bedroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the wardrobe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">examine wardrobe</command>
+    <result xml:space="preserve">A large open wardrobe filled with expensive clothes.&#x000A;As you examine the wardrobe more carefully, you notice a suspicious false bottom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">examine bottom</command>
+    <result xml:space="preserve">A suspicious removable panel at the bottom of the wardrobe.&#x000A;&#x000A;&#x000A;&#x000A;Behind the false bottom, you discover a small locked safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe with the key. It opens with a quiet click.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a bundle of cash, a conspiracy books and a love letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">examine letter</command>
+    <result xml:space="preserve">The letter speaks of secret meeting and forbidden affection. The writer dreams of escaping together, leaving all of this behind forever. The letter is not signed, but clearly written by a lover.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You have entered the Bathroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">ask maid about wife</command>
+    <result xml:space="preserve">The maid lowers her voice. "She was very emotional. Watching everyone. I tried to stay invisible."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">search maid</command>
+    <result xml:space="preserve">As you move closer to search her, her expression changes instantly. Panic flashes in her eyes.&#x000A;Before you can react, she pulls out a hidden knife and lunges at you.&#x000A;&#x000A;&#x000A;&#x000A;    *** Your investigation ends here. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Bathroom&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">accuse maid</command>
+    <result xml:space="preserve">The maid breaks down completely. Tears run down her face as officers take her away.&#x000A;"I loved him," she sobs. "We planned everything. To leave this place. To start over together."&#x000A;She shakes her head in despair.&#x000A;"But he changed his mind. He was afraid. Afraid of losing control. Afraid of what people would say."&#x000A;"I didn't plan to kill him. It was rage, love, pain&#x2026; all at once. I just snapped."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">arrest</command>
+    <result xml:space="preserve">(the Maid)&#x000A;&#x000A;&#x000A;    *** CASE CLOSED&#x000A;&#x000A;Against all odds, you uncovered the truth.&#x000A;&#x000A;The murderer is arrested.&#x000A;&#x000A;Justice, though imperfect, has been served. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">examine bathtub</command>
+    <result xml:space="preserve">A standard bathtub.&#x000A;&#x000A;Upon closer inspection, you notice a small dried blood stain near the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance.&#x000A;&#x000A;You can see a blood stain and a bathroom cabinet (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">Now is not the time to leave. You should return to the entrance hall first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-287"/>
+    </children>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">*** You decide to leave the house. The case will remain unsolved. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance. A maid stands near the bathtub, as if she was interrupted while cleaning.&#x000A;&#x000A;You can see a bathroom cabinet (closed) and a Maid here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+      <child nodeId="node-301"/>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">examine toilet</command>
+    <result xml:space="preserve">A clean white toilet. Nothing unusual about it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">examine towel rack</command>
+    <result xml:space="preserve">A metal rack holding neatly folded towels.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">examine bathtub</command>
+    <result xml:space="preserve">A standard bathtub.&#x000A;&#x000A;Upon closer inspection, you notice a small dried blood stain near the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance.&#x000A;&#x000A;You can see a bathroom cabinet (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">examine blood stain</command>
+    <result xml:space="preserve">A small dried blood stain near the edge of the bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-296"/>
+    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. A bathtub stands against the wall, next to a toilet and a towel rack. Everything appears normal at first glance.&#x000A;&#x000A;You can see a bathroom cabinet (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">examine cabinet</command>
+    <result xml:space="preserve">A small wall-mounted cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the bathroom cabinet, revealing a nerve pills.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">look in cabinet</command>
+    <result xml:space="preserve">In the bathroom cabinet is a nerve pills.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">examine pills</command>
+    <result xml:space="preserve">Prescription nerve pills. The label clearly shows the name of Mr. X's wife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You have entered the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Edward Blackwood lies motionless on the floor, a knife stuck in his back. A cook is also present in the room, visibly shaken by the scene. You notice a refrigerator, an oven, a kitchen table, spice cabinets and a knife rack on the wall.&#x000A;&#x000A;You can see a Cook here.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Entrance Hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You have entered the Living Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The living room is spacious and tastefully furnished. A sofa and a coffee table sit in the center of the room. Mr. Blackwood's wife is here, pacing nervously across the room. A large cabinet stands against one wall.&#x000A;&#x000A;You can see a living room cabinet (closed) and a Wife here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">talk to maid</command>
+    <result xml:space="preserve">"Oh! I didn't hear you come in," the maid says nervously. "I was just cleaning the bathroom. I try to stay out of everyone's way."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">ask maid about blackwood</command>
+    <result xml:space="preserve">She hesitates and avoids your gaze. "Mr. Blackwood was... unusual," she says softly. "Very cautious. Always watching, always suspecting something." She pauses, as if remembering something personal, then adds, "He trusted very few people."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">ask maid about power</command>
+    <result xml:space="preserve">"I was in the bathroom when the lights went out," the maid says. "Everything went dark all of a sudden. I stayed where I was."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">ask maid about wife</command>
+    <result xml:space="preserve">The maid lowers her voice. "She was very emotional. Always on edge. I tried to stay out of her way."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">ask maid about strange </command>
+    <result xml:space="preserve">She shifts uncomfortably. "There was a lot of tension in the house lately," she says. "Arguments. Whispering. It didn't feel right."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">ask maid about &#x0161;ule</command>
+    <result xml:space="preserve">She shakes her head. "I'm not sure I can help you with that."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. Everything appears normal at first glance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Something terrible has happened here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. Everything appears normal at first glance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Entrance Hall&#x000A;You are standing in the entrance hall of the house. Doors lead to rooms on both sides of the corridor, and a staircase at the far end leads down to the basement.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-321">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom is small and tidy. Everything appears normal at first glance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-322"/>
+    </children>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen looks disturbed. Something terrible has happened here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

@@ -1,0 +1,69 @@
+! Blurb file created by Inform Inform 10.1.2 (build )
+
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.inform"
+release to "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Murder Mystery.gblorb"
+storyfile "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.inform\Build\output.ulx" include
+ifiction "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.inform\Metadata.iFiction" include
+cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\Small Cover.jpg"
+picture 8 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Figures\hallway.png"
+picture 9 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Figures\kitchen.png"
+picture 10 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Figures\basement.png"
+picture 11 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Figures\safe.png"
+sound 3 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Sounds\door.ogg"
+sound 4 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Sounds\door_basement.ogg"
+sound 5 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Sounds\thunder.ogg"
+sound 6 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Sounds\fusebox.ogg"
+sound 7 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Sounds\kitchen.ogg"
+
+! Placeholder variables
+
+placeholder [IFID] = "28A4873C-C272-4304-ADC9-CFDE0EA78041"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2025"
+placeholder [TITLE] = "Murder Mystery"
+placeholder [AUTHOR] = "Luka Hrupec"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Murder Mystery.gblorb.js"
+template path "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Templates"
+template path "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Templates"
+template path "C:\Users\lukah\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.inform\Build\output.ulx" to "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Release\interpreter\Murder Mystery.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Templates"
+template path "C:\Users\lukah\Desktop\4.god\dek. programiranje\Projekt\Murder Mystery.materials\Templates"
+template path "C:\Users\lukah\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
